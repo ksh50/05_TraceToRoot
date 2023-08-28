@@ -910,7 +910,7 @@ PrintTree(rootNode, 0);
  Part target = new Part("Part_2_0", "P2_0");　で指定した部品をTraceToRootメソッドで列挙しようとしているのですが、何も引っかかりません。
 
 コード全体は下記のようになっています。コードを示さずに問題点を列挙してください。
-"""
+```csharp
 public class Part
 {
     public string Name { get; set; }
@@ -1030,7 +1030,7 @@ public class Program
         }
     }
 }
-"""
+```
 
 ## ASSISTANT
 コードを確認させていただきました。以下が問題点の主要な要因です：
@@ -1228,7 +1228,7 @@ public static void Main(string[] args)
 次にリファクタリングに移りたいと思います。
 下記コード全体を見直し、可能な限り再利用可能なコードに仕上げたいと思います。
 回答としてコードを示さず、リファクタリング案とその内容を教えてください。
-"""
+```csharp
 public class Part
 {
     public string Name { get; set; }
@@ -1361,7 +1361,7 @@ public class Program
         }
     }
 }
-"""
+```
 
 ## ASSISTANT
 リファクタリングを行う際の方針と内容を以下に提案します。
